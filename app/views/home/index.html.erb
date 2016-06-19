@@ -1,2 +1,11 @@
-<h1>Home#index</h1>
+<h1>Book App</h1>
 <p>Find me in app/views/home/index.html.erb</p>
+
+<% if user_signed_in? %>
+  <% if current_user.profile %>
+    <!-- wall goes here -->
+
+    <% else %>
+      <%= render 'profiles/form' %>
+  <% end %>
+<% end %>

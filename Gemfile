@@ -14,6 +14,7 @@ gem 'carrierwave'
 gem 'cloudinary'
 gem 'sucker_punch', '~> 1.0'
 gem 'bootstrap'
+gem 'will_paginate'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
